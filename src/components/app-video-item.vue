@@ -1,26 +1,42 @@
 <template>
-  <router-link class="v-card" :to="`/video/0`">
+  <router-link class="v-card" :to="`/video/${video.id}`">
     <div class="card">
       <div class="card-img">
-        <img class="pic" src="@/assets/images/loading.png" alt="视频描述" />
+        <img class="pic" :src="video.imgSrc" :alt="video.desc" />
       </div>
       <div class="count">
         <span>
           <i class="iconfont icon_shipin_bofangshu"></i>
-          41.4万
+          {{ video.playCount }}
         </span>
         <span>
           <i class="iconfont icon_shipin_danmushu"></i>
-          1314
+          {{ video.commentCount }}
         </span>
       </div>
     </div>
-    <p class="title">当你觉得扛不住的时候来看看这段视频</p>
+    <p class="title">{{ video.desc }}</p>
   </router-link>
 </template>
 
 <script setup lang="ts">
+import { PropType, defineProps } from 'vue'
 
+interface IVideoItem {
+  id: number
+  imgSrc: string
+  desc: string
+  playCount: string
+  commentCount: string
+  videoSrc: string
+}
+
+defineProps({
+  video: {
+    type: Object as PropType<IVideoItem>,
+    required: true,
+  },
+})
 </script>
 
 <style lang="less" scoped>
@@ -35,9 +51,9 @@
     overflow: hidden;
     .card-img {
       .pic {
-        height: 100px;
+        height: 105px;
         width: 100%;
-        object-fit: cover;
+        object-fit: fill;
       }
     }
     .count {
