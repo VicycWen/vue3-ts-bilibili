@@ -1,16 +1,16 @@
 export default [
   {
     id: '0',
-    videoSrc: 'http://sites.zbztb.cn/medias/2018120195458.mp4',
+    videoSrc: 'https://cn-xj-ct-01-02.bilivideo.com/upgcxcode/40/06/1230310640/1230310640-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1692024707&gen=playurlv2&os=bcache&oi=993898416&trid=0000f17e32dad187435db204a8a097cc64eah&mid=35111716&platform=html5&upsig=d275f7a904d71a5cc0c04ece1ac1bac9&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=87002&bvc=vod&nettype=0&bw=49359&logo=80000000',
     poster: 'https://i0.hdslb.com/bfs/archive/0563c3df12637178e8b08858e5fd11e4a6906acc.jpg@320w_200h.webp',
-    videoTitle: '世界上广告最多的网站判定！真的有10000条广告！【暗物质#2】',
-    author: '牧草君1',
+    videoTitle: '迪迦还是太保守了！来感受唐僧变身带来的压迫感！',
+    author: '特效小哥studio',
     authorIconSrc: 'https:////i1.hdslb.com/bfs/face/bb856d0bed8ef8abc0544fd5bd86da4cedf62a04.jpg@60w_60h_1c.png',
-    playCount: '41.4万',
-    likeCount: '5.2万',
-    favCount: '2.1万',
-    commentCount: 1345,
-    date: '12-15'
+    playCount: '556.3万',
+    likeCount: '52.3万',
+    favCount: '10.3万',
+    commentCount: 6297,
+    date: '8-11'
   },
   {
     id: '1',

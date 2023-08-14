@@ -1,24 +1,17 @@
 # vue3-ts-bilibili
 
-## Project setup
-```
-yarn install
-```
+#### 项目
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+仿Bliliblili网站
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### 简介
 
-### Lints and fixes files
-```
-yarn lint
-```
+基于vue3+typescript的移动端项目，使用了Vant3组件库+Axios请求库，并采用mockjs模拟数据，开发了简易版的B站主页和播放页。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+#### 页面展示
+
+| 1.主页                                                       | 2.视频详情页                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="./screenshots/20230814212344.jpg" alt="输入图片说明" style="zoom:25%;" /> | <img src="./screenshots/20230814212309.jpg" alt="输入图片说明" style="zoom:25%;" /> |
+
