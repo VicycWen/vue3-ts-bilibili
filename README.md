@@ -2,11 +2,11 @@
 
 #### 项目
 
-仿Bliliblili网站
+2233网
 
 #### 简介
 
-基于vue3+typescript的移动端项目，使用了Vant3组件库+Axios请求库，并采用mockjs模拟数据，开发了简易版的B站主页和播放页。
+基于Vue3 + TS的移动端项目，使用了Vue-router + Vant3组件库 + Axios请求库，并采用mockjs模拟数据，开发了简易版的B站主页和播放页。
 
 
 #### 页面展示
